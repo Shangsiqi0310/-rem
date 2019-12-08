@@ -1,0 +1,111 @@
+@import "common";
+body{
+    min-width:320px;
+    width:15rem;
+    margin:0 auto;
+    line-height:1.5;
+    background-color: #f2f2f2;
+    font-family: Arial,Helvetica,STHeiTi,sans-serif;
+}
+
+ul{
+    list-style:none;
+    font-size:22rem / 50;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+input{
+    outline:none;
+    border:0;
+}
+.search-content{
+    width:15rem;
+    position:fixed;
+    height:88rem / 50;
+    top:0;
+    left:50%;
+    transform:translateX(-50%);
+    display:flex;
+    background-color:#FFBD00;
+}
+.search-category{
+    width:44rem / 50;
+    height:70rem / 50;
+    background:url(../images/category.png) no-repeat;
+    background-size:44rem / 50;
+    margin:10rem / 50 20rem / 50 8rem / 50;
+}
+.search-box{
+    flex:1;
+    background-color: #FFF2CC;
+    height:60rem/50;
+    border-radius:30rem / 50;
+    margin-top:16rem / 50;
+    overflow:hidden;
+}
+.search-login{
+    line-height:70rem / 50;
+    width:75rem / 50;
+    text-align:center;
+    color:#fff;
+    font-size:24rem / 50;
+    margin:8rem / 50;
+}
+.search-box::before{
+    content:"";
+    display:block;
+    height:36rem / 50;
+    width:36rem / 50;
+    background: url(../images/search.png) no-repeat;
+    background-size:36rem / 50 auto;
+    margin:12rem / 50 20rem / 50;
+    float:left;
+}
+#p-name{
+    height:60rem / 50;
+    float:right;
+    width:498rem / 50;
+    background-color:  #FFF2CC;
+}
+#p-name{
+    font-size:24rem / 50;
+}
+.banner{
+    height:368rem / 50;
+    img{
+        width:15rem;
+    }
+} 
+.local-nav{
+    display:flex;
+    flex-wrap:wrap;
+    background-color: #fff;
+    padding-bottom:20rem / 50;
+    li{
+        flex:20%;
+        height:142rem / 50;
+        a{
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            padding-top:20rem / 50;
+            color:#929292;
+        }
+    }
+}
+.local-nav li img{
+    width:84rem / 50;
+    height:84rem / 50;
+    margin-bottom:6rem / 50;
+}
+.cheap{
+    display:flex;
+}
+.cheap a{
+    flex:1;
+}
+.cheap a img{
+    width:375rem / 50;
+}
